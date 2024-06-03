@@ -1,0 +1,55 @@
+body{
+  background-color: rgb(250, 255, 204);
+  background-image: url("gfx/background/pizza_bg01.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+  
+.shape {
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin: 10px;
+  border-radius: 3px;
+}
+
+h1{
+  font-family: Panpizza;
+}
+
+h2{
+  font-family: Panpizza;
+}
+
+td {
+  background-color:indianred;
+  vertical-align: bottom;
+  font-size:24px;
+}
+
+table {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.check_sudoku_button {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(255, 100, 100);
+  border-radius: 3px;
+  border-color:lightgray;
+  float:center;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.check_sudoku_button:hover {
+  background-color: red;
+  border-radius: 5px;
+  border-color:gray;
+  float:center;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+}
